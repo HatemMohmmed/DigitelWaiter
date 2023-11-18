@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,18 +12,19 @@
 </head>
 <style>
 header{
-    background-image:url("BackGround/HomePage.jpeg");
+    background-image:url("BackGround/Homepage.jpeg");
     height: 340px;
     background-repeat: no-repeat;
     background-size: cover;
    
 
 }
-label {
+div {
     background-image: url("BackGround/HomePage2.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 10px;
+    color: aliceblue;
+    padding: 20px;
 }
 button{
     background-color: rgba(0, 0, 0, 0);
@@ -29,10 +33,17 @@ button{
     border-width:1px;
     border-radius: 5px;
     border-color: white;
-    margin-left: 1100px;
+    margin-left:20px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
+a{color: rgb(223, 214, 214);}
+
+.discritoin{color:whitesmoke; font-size:xx-large;}/* color of discription */
+.title{color:rgb(204, 180, 134);}/* color of titels */
+
+body {
+            background-color: rgb(32, 55, 55);}
 
 </style>
 
@@ -40,28 +51,56 @@ button{
 <header>
 
 <ul>
-        <li ><a href="#about" >Contact Us</a></li>
-        <li ><a href="#" >About Us</a></li>
-        <li ><a href="#" >Log In</a></li>
-        <li ><a href="#" >Home</a></li>
+        <li ><a href="ContactUs_page.html" >Contact Us</a></li>
+        <li ><a href="aboutUs_Page.html" >About Us</a></li>
+        <li ><a href="LogIn_Page.html" >Log In</a></li>
+        <li ><a href="Home_Page.html" >Home</a></li>
 </ul>
 
    <h1 class="heade"><span style="color: rgba(240, 248, 255, 0);">..............</span>
     DIGITAL WAITER<span style="color: rgba(240, 248, 255, 0);">..............</span>
    </h1>
 </header>
-<hr >
-<div class="container-fluid">
+<hr>
+<div class="content-fluid">
 <label>
-<h1 style="color: white;">What is Digital Waiter?</h1>
-<P style="color: white;">Welcome to Digital Waiter, where we're revolutionizing how you place orders.
+<h1 class="title">What is Digital Waiter?</h1>
+<h1 style="color: rgb(77, 104, 117);">__________________________________________________________________________________________</h3>
+<p class="discritoin" >Welcome to Digital Waiter, where we're revolutionizing how you place orders.
  Our mission is to make the process of ordering food simpler, faster, and more convenient.
   Discover how we're changing the way you experience dining by visiting our<span style="text-decoration: underline;">'About Us' page.</span>
-</P>
-<button >About Us</button>
+</p>
+<button><a href="aboutUs_Page.html">About Us</a></button>
 
 </label>
 </div>
+<hr>
+
+
+    <div class="content-fluid">
+        <label>
+        <h1 class="title" >Get in Touch.....</h1>
+        <h1 style="color: rgb(77, 104, 117);">__________________________________________________________________________________________</h3>
+        <p class="discritoin">If you have any questions, suggestions, or feedback, please don't hesitate to contact us your satisfaction is our top priority.
+        </p>
+        <button ><a href="ContactUs_page.html">Contact us</a>
+        </button>
+        
+        </label>
+        </div>
+        <hr>
+
+        <div class="content-fluid">
+            <label>
+            <h1 class="title">Log in to your Account</h1>
+            <h1 style="color: rgb(77, 104, 117);">__________________________________________________________________________________________</h3>
+            <p class="discritoin">This login is reserved for restaurant owners. If you're an owner, please log in here.
+            </p>
+            <button ><a href="LogIn_Page.html">Log in</a></button>
+            
+            </label>
+            </div>
+            <hr>
 
 
 </body>
